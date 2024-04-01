@@ -1,0 +1,51 @@
+/* Container Styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 8px;
+  background-color: #f9a8d4; /* Soft pink background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Icons Styles */
+.icons {
+  background-color: #e82059; /* Pinkish-red color */
+  padding: 0.5rem;
+  border-radius: 50%; /* Circular shape */
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.icons:hover {
+  background-color: #d61d50; /* Slightly darker pinkish-red color on hover */
+}
+
+/* Button Styles */
+.btn {
+  padding: 0.75rem 1.5rem; /* Slightly reduced padding for buttons */
+  border-radius: 8px;
+  background-color: #2971f7; /* Blue color */
+  border: none;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.btn:hover {
+  background-color: #144297; /* Darker blue color on hover */
+}
+
+/* Button Container Styles */
+.btnContainer {
+  display: flex;
+  gap: 1rem; /* Reduced gap between buttons */
+  margin-top : 1rem; /* Adjusted margin for better spacing */
+}

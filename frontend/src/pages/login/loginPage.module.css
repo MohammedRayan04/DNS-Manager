@@ -1,0 +1,79 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font family */
+  background-color: #f9f9f9; /* Light grey background */
+}
+
+/* Login Container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height : 100vh;
+  background-color: #f0f0f0; /* Light grey background */
+}
+
+/* Login Form */
+.login-form {
+  background-color: #ffffff; /* White background */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  max-width : 400px; /* Limit width for better readability */
+  width : 100%; /* Ensure form takes full width */
+}
+
+/* Login Form Title */
+.login-form h2 {
+  margin-bottom : 20px;
+  text-align: center;
+  color: #333333; /* Dark grey text color */
+  font-size: 24px; /* Larger font size */
+}
+
+/* Form Group (input + label) */
+.form-group {
+  margin-bottom : 20px; /* Increase margin for better separation */
+}
+
+/* Label */
+.label {
+  display: block;
+  margin-bottom : 10px;
+  color: #333333; /* Dark grey text color */
+  font-size: 16px; /* Font size */
+}
+
+/* Input */
+.input {
+  width : 100%;
+  padding: 15px;
+  border: 1px solid #cccccc; /* Light grey border */
+  border-radius: 5px;
+  outline: none; /* Remove outline on focus */
+  font-size: 16px; /* Font size */
+}
+
+/* Button */
+.btn,
+.btnSkip {
+  width : 100%;
+  padding: 15px;
+  background-color: #007bff; /* Blue button color */
+  color: #ffffff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove default underline for links */
+  font-size: 16px; /* Font size */
+}
+
+/* Button Hover */
+.btn:hover,
+.btnSkip:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

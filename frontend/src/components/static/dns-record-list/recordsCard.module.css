@@ -1,0 +1,32 @@
+/* Container */
+.container {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  background-color: #f0f0f0; /* Light grey background */
+  padding: 20px; /* Add padding for spacing */
+}
+
+/* Cell Styles */
+.cell, .cellRight {
+  padding: 20px; /* Increase padding for better spacing */
+  border: 1px solid #cad2d7;
+  text-align: center;
+  background-color: #6baabb; /* Light blue background color */
+  color: #312828; /* Dark text color */
+}
+
+/* Right Cell */
+.cellRight {
+  width : calc(100% - 550px); /* Adjust width */
+  margin-left : 20px; /* Add margin for spacing */
+  border-radius: 8px; /* Add border radius for rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+/* Hover Effect */
+.cell:hover, .cellRight :hover {
+  background-color: #4e8ea6; /* Darker blue on hover */
+  color: #fff; /* White text color on hover */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}

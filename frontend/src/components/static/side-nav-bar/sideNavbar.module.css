@@ -1,0 +1,72 @@
+/* Side Navbar */
+.sideNavbar {
+  height : 100%;
+  width : 250px;
+  position: fixed;
+  top : 0;
+  left : 0;
+  background: rgb(21, 91, 220);
+  background: linear-gradient(
+    180deg,
+    rgb(41, 113, 247) 0%,
+    rgba(6, 57, 146, 1) 100%
+  );
+  padding-bottom : 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 99999999999999;
+  box-shadow: 1px 1px 2px 1px #3e4044;
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Hide Side Navbar */
+.noSideNavbar {
+  display: none;
+}
+
+/* Unordered List Styles */
+.sideNavbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* List Item Styles */
+.sideNavbar .li {
+  padding: 15px; /* Increased padding for better spacing */
+  width : 90%;
+  margin: auto;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.sideNavbar .li > * {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hover Effect on List Item */
+.sideNavbar .li:hover {
+  background: rgb(67, 125, 233);
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+/* Link Styles */
+.sideNavbar .li a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Icon Styles */
+.icons {
+  font-size: 20px;
+}
+
+/* Not Display Class */
+.notDisplay {
+  display: none;
+}
+
+/* High-end design enhancements can include more detailed hover effects, transitions, and subtle animations. */

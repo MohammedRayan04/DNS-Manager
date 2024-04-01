@@ -1,0 +1,38 @@
+/* Logo Container */
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width : 250px;
+}
+
+/* Logo Link */
+.logoContainer a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+/* Logo Link Hover */
+.logoContainer a:hover {
+  color: #555; /* Darker color on hover */
+}
+
+/* Hamburger Icon */
+.Hamburger {
+  font-size: 30px;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+/* Hamburger Icon Hover */
+.Hamburger:hover {
+  background: linear-gradient(45deg, #007bff, #00ffec); /* Gradient background on hover */
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.3); /* Soft shadow on hover */
+  color: #fff; /* White color on hover */
+}

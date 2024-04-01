@@ -1,0 +1,17 @@
+# Ignore .env files
+.env
+.env.development
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore dist directory (if it contains build output)
+dist/
+
+# Ignore any files or directories named node_modules at the root
+/node_modules
+
+/frontend/node_modules
+
+# Ignore .prettierrc file
+.prettierrc
